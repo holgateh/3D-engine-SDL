@@ -1,0 +1,35 @@
+﻿  Engine.cpp
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Algebra.h(17,14): warning C4244:  'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(315,20): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(316,20): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,29): warning C4838:  conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,29): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,41): warning C4838:  conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,41): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,55): warning C4838:  conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,55): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,67): warning C4838:  conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,67): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,81): warning C4838:  conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,81): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,93): warning C4838:  conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(327,93): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(351,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(352,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(353,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(354,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(358,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(359,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(360,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(361,16): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(363,44): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(363,40): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(363,36): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(363,32): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(418,66): warning C4305:  'argument': truncation from 'double' to 'float'
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(524,40): warning C4267:  '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(650,30): warning C4305:  '=': truncation from 'double' to 'float'
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(652,29): warning C4305:  '=': truncation from 'double' to 'float'
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(662,51): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(662,51): warning C4244: C:\Users\harri\Desktop\3D-engine-SDL\3D\3D\Engine.cpp(100) : warning C4715: 'Triangle_ClipAgainstPlane': not all control paths return a value
+  3D.vcxproj -> C:\Users\harri\Desktop\3D-engine-SDL\3D\x64\Debug\3D.exe
