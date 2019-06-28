@@ -427,6 +427,7 @@ void Engine::render(SDL_Renderer *renderer)
 
 
 	std::vector<triangle> vecTrisToRaster;
+	//#pragma omp parallel for schedule(dynamic) reduction(+:n inside)
 	for (auto &tri : tris)
 	{
 		triangle triTransformed, triProjected, triViewed;
@@ -551,7 +552,7 @@ Engine::Engine(int width, int height, std::string title)
 
 	//Load model
 
-	std::vector<std::string> objFiles = { "Objects/terrian.obj", "Objects/earth.obj" , "Objects/monkey.obj"};
+	std::vector<std::string> objFiles = {"Objects/earth.obj" , "Objects/monkey.obj"};
 	for (auto &object : objFiles)
 	{
 		loadedModels.push_back(loadModel(object));
@@ -564,15 +565,6 @@ Engine::Engine(int width, int height, std::string title)
 	mat4x4 transMatrix = makeTranslationMatrix(radius * sinf(fTheta), 0, radius * cosf(fTheta));
 
 	for (auto& tri : worldModels[1].tris)
-	{
-		for (int i = 0; i < 3; i++)
-		{
-			tri.p[i] = multiplyMatrixVector4x4(tri.p[i], transMatrix);
-		}
-	}
-	transMatrix = makeTranslationMatrix(0, -10.0f, 0);
-
-	for (auto& tri : worldModels[0].tris)
 	{
 		for (int i = 0; i < 3; i++)
 		{
